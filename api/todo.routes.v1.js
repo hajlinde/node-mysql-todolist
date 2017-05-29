@@ -77,8 +77,8 @@ routes.put('/todos/:id', function(req, res) {
     var todos = req.body;
     var ID = req.params.id;
     var query = {
-        sql: 'UPDATE `todos` SET Title=? , Beschrijving=? WHERE ID=?',
-        values: [todos.Title, todos.Beschrijving, ID],
+        sql: 'UPDATE `todos` SET Titel=? , Beschrijving=? WHERE ID=?',
+        values: [todos.Titel, todos.Beschrijving, ID],
         timeout: 2000 // 2secs
     };
 
