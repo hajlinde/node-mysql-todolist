@@ -1,8 +1,8 @@
 {
     "webPort": "3000",
-    "dbHost": "localhost",
-    "dbUser": "nodeuser",
-    "dbPassword": "nodeuser",
-    "dbDatabase": "todolist",
+    "dbHost": "146.185.130.82",
+    "dbUser": "1000",
+    "dbPassword": "secret",
+    "dbDatabase": "1000",
     "secretkey": "een lange complexe tekst die moeilijk te raden is"
 }
